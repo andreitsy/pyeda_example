@@ -31,7 +31,7 @@ python-dateutil==2.7.4
 python-debian==0.1.27
 python-systemd==231
 pytz==2018.6
-PyYAML==3.11
+pyyaml>=4.2b1
 requests==2.9.1
 simplegeneric==0.8.1
 six==1.10.0
