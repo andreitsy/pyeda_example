@@ -4,7 +4,7 @@ this simple script take file with truth table in format:
 
 and generate random expression.
 
-you may see on help by typing:
+you may see help message by typing argument -h:
 ```bash
 $ ./pyeda_generate_expressions.py -h
 usage: pyeda_generate_expressions.py [-h] [-s RANDOM_SEED] [-f FILE_PATH]
