@@ -28,3 +28,4 @@ optional arguments:
  ./pyeda_generate_expressions.py -f ./test_tt1.csv -o graph
  ```
  
+**NB!** you should install [graphviz](https://www.graphviz.org/) to generate png image
