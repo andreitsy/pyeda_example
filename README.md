@@ -25,7 +25,7 @@ optional arguments:
   -f FILE_PATH, --file-path FILE_PATH
                         path to file with truth table
   -o OUTPUT_FILE_PICTURE, --output-file-picture OUTPUT_FILE_PICTURE
-                        path to file where will be saved gif picture
+                        path to file where will be saved pdf picture
  ```
  
  for example, you may run it via following command:
