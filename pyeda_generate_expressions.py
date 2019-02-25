@@ -14,7 +14,7 @@ RESULT_FIELD = 'result'
 TruthTable = namedtuple("TruthTable", ['table', 'variables'])
 
 def bdd_visualization(expression: eda.Expression, output_file_path: Path):
-    """function which create pnd file with expression"""
+    """function which create pdf file with expression"""
     graph = Source(expression.to_dot())
     graph.render(output_file_path, view=False, format="pdf")
 
