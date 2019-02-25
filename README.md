@@ -25,7 +25,7 @@ optional arguments:
   -f FILE_PATH, --file-path FILE_PATH
                         path to file with truth table
   -o OUTPUT_FILE_PICTURE, --output-file-picture OUTPUT_FILE_PICTURE
-                        path to file where will be saved png picture
+                        path to file where will be saved gif picture
  ```
  
  for example, you may run it via following command:
@@ -34,4 +34,4 @@ optional arguments:
  ./pyeda_generate_expressions.py -f ./test_tt1.csv -o graph
  ```
  
-**NB!** you should install [graphviz](https://www.graphviz.org/) to generate png image
+**NB!** you should install [graphviz](https://www.graphviz.org/) to generate image
