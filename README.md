@@ -1,7 +1,11 @@
 # pyeda_example
 
 this simple script take file with truth table in format:
-
+> > x,y,result
+> > 0,1,0
+> > 0,0,1
+> > 1,0,0
+> > 1,1,1
 and generate random expression.
 
 you may see help message by typing argument -h:
