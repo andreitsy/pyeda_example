@@ -118,5 +118,5 @@ if __name__ == '__main__':
     print("Minimize boolean expressions:\n", expression_min)
 
     bdd_visualization(expression_min, args.output_file_picture)
-
-    #print(expression_min.equivalent(expression_random))
+    # check that random expression equals to generated
+    print(expression_min.equivalent(expression_random))
